@@ -9,11 +9,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(SOURCES
     main.cpp
     Angler.cpp
+    App.cpp
 )
 
 # Header files
 set(HEADERS
     Angler.h
+    App.h
 )
 
 # Create executable
