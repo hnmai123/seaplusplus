@@ -1,0 +1,41 @@
+name,minLength,maxLength,bagLimit
+Australian BassClosed season in rivers and estuaries May - August incl.,1.0,35.0,2
+Australian Salmon,0.0,0.0,5
+Blue Drummer,0.0,0.0,0
+Bonito,0.0,0.0,10
+Bream (Black/Southern),25.0,0.0,10
+Cobia,0.0,0.0,5
+Hapuku (Hapuka),0.0,0.0,5
+Eastern Blue Groper (Blue| Brown| Red Groper),0.0,0.0,0
+Mahi Mahi (Dolphinfish),0.0,0.0,10
+Eels (Shortfin and Longfin),30.0,58.0,10
+Flathead (Dusky) common,36.0,70.0,5
+FlounderandSole,25.0,0.0,20
+Garfish (Eastern Sea),0.0,0.0,20
+Hairtail,0.0,0.0,10
+Leatherjacket,0.0,0.0,20
+Luderick,27.0,0.0,10
+Mackerel (Spanish),75.0,0.0,5
+Mangrove Jack,0.0,0.0,5
+Marlin (Striped),0.0,0.0,1
+Morwong| Grey (Rubberlip),30.0,0.0,10
+Moses Snapper (Moses Perch),0.0,0.0,5
+Mullet,15.0,0.0,20
+Mulloway,70.0,0.0,1
+Pearl Perch,30.0,0.0,5
+Eastern Red Scorpionfish (Red Rock Cod),0.0,0.0,5
+Rock Blackfish (Black Drummer),30.0,0.0,10
+Sailfish,0.0,0.0,1
+SamsonfishAmberjack,0.0,0.0,5
+Australian Sawtail,0.0,0.0,5
+Shark (Wobbegong),0.0,0.0,0
+Snapper,30.0,0.0,10
+Spearfish| Shortbill,0.0,0.0,1
+Swordfish,0.0,0.0,1
+Tailor,30.0,0.0,10
+Teraglin,38.0,0.0,5
+Trevallies,30.0,0.0,10
+Tuna (Albacore),90.0,90.0,2
+Wahoo,0.0,0.0,5
+Whiting,27.0,0.0,20
+Yellowtail Kingfish,65.0,0.0,5

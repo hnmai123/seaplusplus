@@ -19,3 +19,5 @@ class SeaCreature {
         
         virtual string getType() const = 0; // Abstract method
 };
+
+#endif // SEACREATURE_H

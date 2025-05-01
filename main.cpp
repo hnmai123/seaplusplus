@@ -1,14 +1,10 @@
 #include <iostream>
-#include "Angler.h"
+#include "App.h"
 using namespace std;
 
 int main() {
-    string name;
-    cout << "Enter your name: ";
-    getline(cin, name);
-    
-    Angler angler(name);
-    angler.greet();
+    App app;
+    app.run(); // Start the application
 
     return 0;
 }

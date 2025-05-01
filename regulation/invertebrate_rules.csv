@@ -1,0 +1,23 @@
+name,minLength,maxLength,bagLimit
+Abalone,11.7,0.0,2
+Balmain Bug+,10.0,0.0,20
+Beach Worms,0.0,0.0,20
+All other worms,0.0,0.0,100
+Cockles| Mussels and PipisPipis for bait only - do not takebeyond 50m of high-tide mark.,0.0,0.0,50
+Crab (Blue Swimmer)+,6.5,0.0,10
+Mud Crab+,8.5,0.0,5
+Crab (Spanner)+,9.3,0.0,10
+Crab (Soldier) +,0.0,0.0,100
+All other crabs +,0.0,0.0,10
+Cunjevoi,0.0,0.0,20
+Lobster (Eastern Rock)+,10.4,18.0,3
+Tropical Rock Lobster (Painted and Ornate)+,0.0,0.0,2
+Slipper Lobster (Flat)+,0.0,0.0,2
+Octopus,0.0,0.0,10
+Oysters (Sydney Rock|Pacific|Native),0.0,0.0,50
+Prawns,0.0,0.0,10
+Saltwater Nippers,0.0,0.0,100
+Scallops,0.0,0.0,50
+Sea Urchins,0.0,0.0,10
+Squid&Cuttlefish,0.0,0.0,20
+Turban Snails,7.5,0.0,20

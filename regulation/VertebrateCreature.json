@@ -1,0 +1,302 @@
+[
+  {
+    "species":"Australian Bass & Estuary Perch",
+    "name":"Australian BassClosed season in rivers and estuaries May - August incl.",
+    "length":"Only 1 over 35cm",
+    "baglimit":"2 in total *, 4 in possession"
+  },
+  {
+    "species":"Australian Salmon",
+    "name":"Australian Salmon",
+    "length":"-",
+    "baglimit":"5"
+  },
+  {
+    "species":"Blue Drummer",
+    "name":"Blue Drummer",
+    "length":"-",
+    "baglimit":"0 - release onlyLord Howe Marine Park 5"
+  },
+  {
+    "species":"Bonito",
+    "name":"Bonito",
+    "length":"-",
+    "baglimit":"10"
+  },
+  {
+    "species":"Bream & Tarwhine",
+    "name":"Bream (Black\/Southern)",
+    "length":"25 cm",
+    "baglimit":"10 in total *. 20 in possession."
+  },
+  {
+    "species":"Cobia",
+    "name":"Cobia",
+    "length":"-",
+    "baglimit":"5"
+  },
+  {
+    "species":"Deep-sea fish",
+    "name":"Hapuku (Hapuka)",
+    "length":"-",
+    "baglimit":"5 in total *, gemfish: only 2 and boat trip limit of 10"
+  },
+  {
+    "species":"Dogfish",
+    "name":"Dogfish",
+    "length":"",
+    "baglimit":""
+  },
+  {
+    "species":"Harrisson's",
+    "name":"-",
+    "length":"0",
+    "baglimit":""
+  },
+  {
+    "species":"Southern",
+    "name":"-",
+    "length":"0",
+    "baglimit":""
+  },
+  {
+    "species":"All other",
+    "name":"-",
+    "length":"2 in total*",
+    "baglimit":""
+  },
+  {
+    "species":"Eastern Blue Groper",
+    "name":"Eastern Blue Groper (Blue, Brown, Red Groper)",
+    "length":"-",
+    "baglimit":"0, release only"
+  },
+  {
+    "species":"Mahi Mahi (Dolphinfish)",
+    "name":"Mahi Mahi (Dolphinfish)",
+    "length":"60 cm, only 1 over 110 cm",
+    "baglimit":"10"
+  },
+  {
+    "species":"Eels",
+    "name":"Eels (Shortfin and Longfin)",
+    "length":"(Southern Shortfin) 30cm(Longfin) 58cm",
+    "baglimit":"(Southern Shortfin) 10(Longfin) 10"
+  },
+  {
+    "species":"Flathead",
+    "name":"Flathead (Dusky) common",
+    "length":"36cm - 70cm",
+    "baglimit":"5 in total. 10 in possession."
+  },
+  {
+    "species":"Flathead (Bluespotted)",
+    "name":"33 cm",
+    "length":"10 in total *. 20 in possession.",
+    "baglimit":""
+  },
+  {
+    "species":"Flounder & Sole",
+    "name":"FlounderandSole",
+    "length":"25cm (0 for Sole)",
+    "baglimit":"20 in total *"
+  },
+  {
+    "species":"Garfish",
+    "name":"Garfish (Eastern Sea)",
+    "length":"-",
+    "baglimit":"20"
+  },
+  {
+    "species":"Hairtail",
+    "name":"Hairtail",
+    "length":"-",
+    "baglimit":"10"
+  },
+  {
+    "species":"Leatherjacket",
+    "name":"Leatherjacket",
+    "length":"-",
+    "baglimit":"20 in total *"
+  },
+  {
+    "species":"Luderick",
+    "name":"Luderick",
+    "length":"27 cm",
+    "baglimit":"10. 20 in possession."
+  },
+  {
+    "species":"Mackerel",
+    "name":"Mackerel (Spanish)",
+    "length":"(Spanish) 75cm",
+    "baglimit":"5 in total *"
+  },
+  {
+    "species":"Mangrove Jack",
+    "name":"Mangrove Jack",
+    "length":"-",
+    "baglimit":"5"
+  },
+  {
+    "species":"Marlin",
+    "name":"Marlin (Striped)",
+    "length":"-",
+    "baglimit":"1 of each species"
+  },
+  {
+    "species":"Morwong",
+    "name":"Morwong, Grey (Rubberlip)",
+    "length":"30cm",
+    "baglimit":"10"
+  },
+  {
+    "species":"Morwong (Jackass)",
+    "name":"30cm",
+    "length":"10",
+    "baglimit":""
+  },
+  {
+    "species":"Morwong (Red)",
+    "name":"30cm",
+    "length":"5",
+    "baglimit":""
+  },
+  {
+    "species":"Morwong (Banded)",
+    "name":"-",
+    "length":"5",
+    "baglimit":""
+  },
+  {
+    "species":"Moses Snapper",
+    "name":"Moses Snapper (Moses Perch)",
+    "length":"-",
+    "baglimit":"5"
+  },
+  {
+    "species":"Mullet",
+    "name":"Mullet",
+    "length":"Small (poddy) Under 15 cm",
+    "baglimit":"20 in total* for live bait only"
+  },
+  {
+    "species":"Mulloway",
+    "name":"Mulloway",
+    "length":"70 cm",
+    "baglimit":"1Boat limit of 2 per boat per day (if 2 or more fishers are onboard).Charter Boat limit of 3 per boat per day."
+  },
+  {
+    "species":"Pearl Perch",
+    "name":"Pearl Perch",
+    "length":"30 cm",
+    "baglimit":"5"
+  },
+  {
+    "species":"Eastern Red Scorpionfish (Red Rock Cod)",
+    "name":"Eastern Red Scorpionfish (Red Rock Cod)",
+    "length":"-",
+    "baglimit":"5"
+  },
+  {
+    "species":"Rock Blackfish (Black Drummer)",
+    "name":"Rock Blackfish (Black Drummer)",
+    "length":"30 cm",
+    "baglimit":"10"
+  },
+  {
+    "species":"Sailfish",
+    "name":"Sailfish",
+    "length":"-",
+    "baglimit":"1"
+  },
+  {
+    "species":"Samson & Amberjack",
+    "name":"SamsonfishAmberjack",
+    "length":"-",
+    "baglimit":"5 in total*"
+  },
+  {
+    "species":"Australian Sawtail",
+    "name":"Australian Sawtail",
+    "length":"-",
+    "baglimit":"5"
+  },
+  {
+    "species":"Sharks and rays",
+    "name":"Shark (Wobbegong)",
+    "length":"-",
+    "baglimit":"0 for wobbegong (release only)."
+  },
+  {
+    "species":"Shark (Mako)",
+    "name":"-",
+    "length":"5 in total*. Only 1 tiger, mako, hammerhead # or whaler\/ blue shark.# Only smooth hammerheads may be taken. Great and scalloped hammerheads are protected species in NSW and must be released immediately with minimal harm.",
+    "baglimit":""
+  },
+  {
+    "species":"Snapper",
+    "name":"Snapper",
+    "length":"30 cm",
+    "baglimit":"10"
+  },
+  {
+    "species":"Spearfish",
+    "name":"Spearfish, Shortbill",
+    "length":"-",
+    "baglimit":"1"
+  },
+  {
+    "species":"Swordfish",
+    "name":"Swordfish",
+    "length":"-",
+    "baglimit":"1"
+  },
+  {
+    "species":"Tailor",
+    "name":"Tailor",
+    "length":"30 cm",
+    "baglimit":"10. 20 in possession."
+  },
+  {
+    "species":"Teraglin",
+    "name":"Teraglin",
+    "length":"38 cm",
+    "baglimit":"5"
+  },
+  {
+    "species":"Trevallies",
+    "name":"Trevallies",
+    "length":"(silver trevally only) 30 cm",
+    "baglimit":"10 in total*. 20 in possession."
+  },
+  {
+    "species":"Tuna",
+    "name":"Tuna (Albacore)",
+    "length":"90 cm or aboveLess than 90 cm",
+    "baglimit":"2 in total *5 in total*"
+  },
+  {
+    "species":"Tuna (Southern Bluefin)",
+    "name":"-",
+    "length":"1",
+    "baglimit":""
+  },
+  {
+    "species":"Wahoo",
+    "name":"Wahoo",
+    "length":"-",
+    "baglimit":"5"
+  },
+  {
+    "species":"Whiting",
+    "name":"Whiting",
+    "length":"(sand only) 27 cm",
+    "baglimit":"20 in total*"
+  },
+  {
+    "species":"Yellowtail Kingfish",
+    "name":"Yellowtail Kingfish",
+    "length":"65 cm",
+    "baglimit":"5"
+  }
+]

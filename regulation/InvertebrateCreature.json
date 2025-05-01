@@ -1,0 +1,112 @@
+[
+  {
+    "Species": "Abalone",
+    "Size limits or legal length (cm)": "11.7 cm",
+    "Bag limit": "2"
+  },
+  {
+    "Species": "Balmain Bug+",
+    "Size limits or legal length (cm)": "10 cm",
+    "Bag limit": "20"
+  },
+  {
+    "Species": "Beach Worms",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "20 whole or part in total*"
+  },
+  {
+    "Species": "All other worms",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "100 in total*"
+  },
+  {
+    "Species": "Cockles, Mussels and PipisPipis for bait only - do not takebeyond 50m of high-tide mark.",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "50 in total* including a maximum of 20 cockles."
+  },
+  {
+    "Species": "Crab (Blue Swimmer)+",
+    "Size limits or legal length (cm)": "6.5 cm",
+    "Bag limit": "10. 20 in possession."
+  },
+  {
+    "Species": "Mud Crab+",
+    "Size limits or legal length (cm)": "8.5 cm",
+    "Bag limit": "5"
+  },
+  {
+    "Species": "Crab (Spanner)+",
+    "Size limits or legal length (cm)": "9.3 cm",
+    "Bag limit": "10"
+  },
+  {
+    "Species": "Crab (Soldier) +",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "100 in total *"
+  },
+  {
+    "Species": "All other crabs +",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "10 in total *"
+  },
+  {
+    "Species": "Cunjevoi",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "20 in total *"
+  },
+  {
+    "Species": "Lobster (Eastern Rock)+",
+    "Size limits or legal length (cm)": "Min. 10.4cm, none over 18cm",
+    "Bag limit": "3 in total in any combination"
+  },
+  {
+    "Species": "Tropical Rock Lobster (Painted and Ornate)+",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "2 in total *"
+  },
+  {
+    "Species": "Slipper Lobster (Flat)+",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "2"
+  },
+  {
+    "Species": "Octopus",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "10 in total *  Octopus cannot be taken from ocean rock platforms in NSW or from rock platforms in Sydney Harbour"
+  },
+  {
+    "Species": "Oysters (Sydney Rock,Pacific,Native)",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "50 in total *"
+  },
+  {
+    "Species": "Prawns",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "10 litres in total *"
+  },
+  {
+    "Species": "Saltwater Nippers",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "100 in total *"
+  },
+  {
+    "Species": "Scallops",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "50 in total *"
+  },
+  {
+    "Species": "Sea Urchins",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "10 in total *"
+  },
+  {
+    "Species": "Squid&Cuttlefish",
+    "Size limits or legal length (cm)": "-",
+    "Bag limit": "20 in total *"
+  },
+  {
+    "Species": "Turban Snails",
+    "Size limits or legal length (cm)": "(Sydney, Military) 7.5 cm(All other molluscs) -",
+    "Bag limit": "20 in total*20 in total* including turban shells"
+  }
+]
