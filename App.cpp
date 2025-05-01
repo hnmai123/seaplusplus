@@ -22,7 +22,7 @@ App::~App() {
 }
 
 void App::run() {
-    cout << "\n🌊 Welcome to Sea++!\n==================================\n" << endl;
+    cout << "\n🌊 Welcome to Sea++!\n=======================================\n" << endl;
     string name;    
     cout << "👤 Enter your name: ";
     getline(cin, name);
@@ -43,15 +43,18 @@ SeaCreature* App::getCatchData() {
     string specie, type;
     float size;
     int quantity;
-    cout << "Enter the type of sea creature (Vertebrate/Invertebrate): ";
+    cout << "🐠 Please enter details about your sea creature\n";
+    cout << "-------------------------------------------------\n";
+    cout << "🌊 Type (Vertebrate / Invertebrate): ";
     getline(cin, type);
     type = toLower(type);  // Normalize to lowercase
-    cout << "Enter the species of the sea creature: ";
+    cout << "🔖 Species name: ";
     getline(cin, specie);
-    cout << "Enter the size of the sea creature (in cm): ";
+    cout << "📏 Size (in cm): ";
     cin >> size;
-    cout << "Enter the quantity of the sea creature: ";
+    cout << "🔢 Quantity caught: ";
     cin >> quantity;
+    cout << "-------------------------------------------------\n";
 
     // Create a new SeaCreature object based on the type
     SeaCreature* creature;
@@ -94,9 +97,9 @@ void App::displayResult(bool result) {
 }
 
 void App::displayGoodbye() {
-    cout << "\n==================================\n";
+    cout << "=======================================\n";
     cout << "🎣 Thank you for using Sea++!\n";
     cout << "💧 Respect the ocean. Fish responsibly.\n";
     cout << "👋 Goodbye, and tight lines!\n";
-    cout << "==================================\n" << endl;
+    cout << "=======================================\n" << endl;
 }

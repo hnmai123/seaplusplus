@@ -10,5 +10,5 @@ string Angler::getName() const {
 
 void Angler::greet() const {
     cout << "Hello " << name << "! 🎣 Let's check your catch!\n" << endl;
-    cout << "==================================\n" << endl;
+    cout << "=======================================\n" << endl;
 }
