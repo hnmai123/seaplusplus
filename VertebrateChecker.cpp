@@ -17,28 +17,28 @@ bool VertebrateChecker::checkCatch(const SeaCreature* creature) const {
 
     // Check if the species is in the rules
     if (it == rules.end()) {
-        cout << "Species not found in rules: " << specie << endl;
+        cout << "\n❌ Species not found in rules: " << specie << endl;
         return false; // Species not found
     }
 
     const SpeciesRule& rule = it->second;
 
     if (length < rule.minSize & rule.minSize > 0) {
-        cout << "Caught " << specie << " is too small. Minimum size: " << rule.minSize << endl;
+        cout << "\n📏 Caught " << specie << " is too small. Minimum size: " << rule.minSize << " cm ❗\n";
         return false; // Too small
     }
 
     if (length > rule.maxSize & rule.maxSize > 0) {
-        cout << "Caught " << specie << " is too large. Maximum size: " << rule.maxSize << endl;
+        cout << "\n📏 Caught " << specie << " is too large. Maximum size: " << rule.maxSize << " cm ❗\n";
         return false; // Too large
     }
 
     if (quantity > rule.bagLimit) {
-        cout << "Caught " << specie << " exceeds bag limit. Bag limit: " << rule.bagLimit << endl;
+        cout << "\n🔢 Caught " << specie << "(s) exceeds bag limit. Bag limit: " << rule.bagLimit << " ❗\n";
         return false; // Exceeds bag limit
     }
 
-    cout << "Caught " << specie << " is within legal limits." << endl;
+    cout << "\n✅ Caught " << specie << " is within legal limits. You may keep it!" << endl;
 
     return true; // All checks passed
 }
