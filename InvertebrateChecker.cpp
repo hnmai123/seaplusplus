@@ -1,6 +1,7 @@
 #include "InvertebrateChecker.h"
 #include <iostream>
 #include "CSVLoader.h"
+#include "InvertebrateCreature.h"
 
 using namespace std;
 
@@ -22,6 +23,11 @@ bool InvertebrateChecker::checkCatch(const SeaCreature* creature) const {
     }
 
     const SpeciesRule& rule = it->second;
+    const InvertebrateCreature* invertebrate = dynamic_cast<const InvertebrateCreature*>(creature);
+    if (invertebrate && invertebrate->getHasEggs()) {
+        cout << "Caught " << specie << " has eggs. Must be released." << endl;
+        return false; // Has eggs
+    }
 
     if (length < rule.minSize & rule.minSize > 0) {
         cout << "Caught " << specie << " is too small. Minimum size: " << rule.minSize << endl;

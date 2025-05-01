@@ -58,7 +58,11 @@ SeaCreature* App::getCatchData() {
     if (type == "vertebrate") {
         creature = new VertebrateCreature(specie, size, quantity);
     } else if (type == "invertebrate") {
-        creature = new InvertebrateCreature(specie, size, quantity);
+        char eggChoice;
+        cout << "Does the invertebrate have eggs? (y/n): ";
+        cin >> eggChoice;
+        bool hasEggs = (eggChoice== 'y' || eggChoice == 'Y');
+        creature = new InvertebrateCreature(specie, size, quantity, hasEggs);
     } else {
         cout << "Unknown type of sea creature. Defaulting to Vertebrate." << endl;
         creature = new VertebrateCreature(specie, size, quantity);
@@ -73,6 +77,11 @@ void App::displayCatchData(SeaCreature* creature) {
     cout << "📏 Length   : " << creature->getSize() << " cm\n";
     cout << "🧬 Type     : " << creature->getType() << "\n";
     cout << "🔢 Quantity : " << creature->getQuantity() << "\n";
+
+    const InvertebrateCreature* inv = dynamic_cast<InvertebrateCreature*>(creature);
+    if (inv) {
+        cout << "🥚 Has Eggs : " << (inv->getHasEggs() ? "Yes" : "No") << "\n";
+    }
     cout << "-------------------------\n";
 }
 
