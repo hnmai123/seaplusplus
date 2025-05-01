@@ -22,10 +22,11 @@ App::~App() {
 }
 
 void App::run() {
-    cout << "Welcome to Sea++!" << endl;
+    cout << "\n🌊 Welcome to Sea++!\n==================================\n" << endl;
     string name;    
-    cout << "Enter your name: ";
+    cout << "👤 Enter your name: ";
     getline(cin, name);
+    cout << endl;
     angler = new Angler(name);
     angler->greet();
 
@@ -67,17 +68,26 @@ SeaCreature* App::getCatchData() {
 }
 
 void App::displayCatchData(SeaCreature* creature) {
-    cout << "Caught " << creature->getSpecie() << " of size " << creature->getSize() << " cm and quantity " << creature->getQuantity() << endl;
+    cout << "\n🐟 Sea Creature Details\n-------------------------\n";
+    cout << "🔖 Species  : " << creature->getSpecie() << "\n";
+    cout << "📏 Length   : " << creature->getSize() << " cm\n";
+    cout << "🧬 Type     : " << creature->getType() << "\n";
+    cout << "🔢 Quantity : " << creature->getQuantity() << "\n";
+    cout << "-------------------------\n";
 }
 
 void App::displayResult(bool result) {
     if (result) {
-        cout << "You can keep the catch!" << endl;
+        cout << "\n✅ You can keep the catch!\n" << endl;
     } else {
-        cout << "You must release the catch back to nature!" << endl;
+        cout << "\n❌ You must release the catch back to nature!\n" << endl;
     }
 }
 
 void App::displayGoodbye() {
-    cout << "Thank you for using Sea++. Goodbye!" << endl;
+    cout << "\n==================================\n";
+    cout << "🎣 Thank you for using Sea++!\n";
+    cout << "💧 Respect the ocean. Fish responsibly.\n";
+    cout << "👋 Goodbye, and tight lines!\n";
+    cout << "==================================\n" << endl;
 }
