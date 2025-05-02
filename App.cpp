@@ -3,13 +3,9 @@
 #include "VertebrateCreature.h"
 #include "InvertebrateCreature.h"
 #include <algorithm>
+#include "InputHelper.h"
 
 using namespace std;
-string toLower(const string& str) {
-    string lowerStr = str;
-    transform(lowerStr.begin(), lowerStr.end(), lowerStr.begin(), ::tolower);
-    return lowerStr;
-}
 
 App::App() {
     engine = new SeaPlusPlusEngine("regulation/vertebrate_rules.csv", "regulation/invertebrate_rules.csv");
@@ -24,8 +20,7 @@ App::~App() {
 void App::run() {
     cout << "\n🌊 Welcome to Sea++!\n=======================================\n" << endl;
     string name;    
-    cout << "👤 Enter your name: ";
-    getline(cin, name);
+    name = readString("👤 Enter your name: ");
     cout << endl;
     angler = new Angler(name);
     angler->greet();
@@ -34,8 +29,6 @@ void App::run() {
     bool result = engine->checkCatch(creature);
     displayCatchData(creature);
     displayResult(result);
-
-    delete creature; // Clean up the creature object
     displayGoodbye();
 }
 
@@ -45,15 +38,10 @@ SeaCreature* App::getCatchData() {
     int quantity;
     cout << "🐠 Please enter details about your sea creature\n";
     cout << "-------------------------------------------------\n";
-    cout << "🌊 Type (Vertebrate / Invertebrate): ";
-    getline(cin, type);
-    type = toLower(type);  // Normalize to lowercase
-    cout << "🔖 Species name: ";
-    getline(cin, specie);
-    cout << "📏 Size (in cm): ";
-    cin >> size;
-    cout << "🔢 Quantity caught: ";
-    cin >> quantity;
+    type = toLower(readString("🌊 Type (Vertebrate / Invertebrate): "));
+    specie = readString("🔖 Species name: ");
+    size = readFloat("📏 Size (in cm): ");
+    quantity = readInt("🔢 Quantity caught: ");
     cout << "-------------------------------------------------\n";
 
     // Create a new SeaCreature object based on the type
@@ -61,11 +49,8 @@ SeaCreature* App::getCatchData() {
     if (type == "vertebrate") {
         creature = new VertebrateCreature(specie, size, quantity);
     } else if (type == "invertebrate") {
-        char eggChoice;
         cout << "\n🔸🔸🔸 Invertebrate Details 🔸🔸🔸\n";
-        cout << "🥚 Has eggs? (y/n): ";        
-        cin >> eggChoice;
-        bool hasEggs = (eggChoice== 'y' || eggChoice == 'Y');
+        bool hasEggs = readYesNo("🥚 Has eggs?");  
         creature = new InvertebrateCreature(specie, size, quantity, hasEggs);
     } else {
         cout << "\n==============================\n";
