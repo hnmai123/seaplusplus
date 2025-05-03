@@ -15,22 +15,23 @@ This repository contains the **Part I** implementation of the Sea++ project, foc
 - **Interface Pattern**: `SeaChecker` defines a uniform interface for `VertebrateChecker` and `InvertebrateChecker`.
 
 ## 📁 File Structure
-├── App.cpp / App.h                  # Facade controller class <br>
-├── Angler.cpp / Angler.h            # Stores angler info and manages their bag of catches <br>
-├── CSVLoader.cpp / CSVLoader.h      # Utility class to load species rules from CSV files<br>
-├── SpeciesRule.h                    # Struct definition for species size and bag limit rules<br>
-├── SeaCreature.cpp / SeaCreature.h  # Abstract base class for all sea creatures<br>
-├── VertebrateCreature.cpp / .h      # Represents vertebrate species (no eggs)<br>
-├── InvertebrateCreature.cpp / .h    # Represents invertebrate species (may have eggs)<br>
-├── SeaChecker.h                     # Interface for rule checkers (checkCatch method)<br>
-├── InvertebrateChecker.cpp / .h     # Validates invertebrate creatures against rules<br>
-├── VertebrateChecker.cpp / .h       # Validates vertebrate creatures against rules<br>
-├── SeaPlusPlusEngine.cpp / .h       # Mediator pattern – coordinates validation logic<br>
-├── InputHelper.cpp / InputHelper.h  # Handles safe user input (with validation and formatting)<br>
-├── regulation/                      # Folder containing CSV rule files (size/bag limits)<br>
-├── main.cpp                         # Entry point that launches the App<br>
-├── CMakeLists.txt                   # CMake build configuration file<br>
-
+<pre>
+├── App.cpp / App.h                  # Facade controller class 
+├── Angler.cpp / Angler.h            # Stores angler info and manages their bag of catches 
+├── CSVLoader.cpp / CSVLoader.h      # Utility class to load species rules from CSV files
+├── SpeciesRule.h                    # Struct definition for species size and bag limit rules
+├── SeaCreature.cpp / SeaCreature.h  # Abstract base class for all sea creatures
+├── VertebrateCreature.cpp / .h      # Represents vertebrate species (no eggs)
+├── InvertebrateCreature.cpp / .h    # Represents invertebrate species (may have eggs)
+├── SeaChecker.h                     # Interface for rule checkers (checkCatch method)
+├── InvertebrateChecker.cpp / .h     # Validates invertebrate creatures against rules
+├── VertebrateChecker.cpp / .h       # Validates vertebrate creatures against rules
+├── SeaPlusPlusEngine.cpp / .h       # Mediator pattern – coordinates validation logic
+├── InputHelper.cpp / InputHelper.h  # Handles safe user input (with validation and formatting)
+├── regulation/                      # Folder containing CSV rule files (size/bag limits)
+├── main.cpp                         # Entry point that launches the App
+├── CMakeLists.txt                   # CMake build configuration file
+</pre>
 
 ## 📊 UML diagram
 The following UML class diagram illustrates the structure and relationships of the Sea++ system as implemented in Part I.
