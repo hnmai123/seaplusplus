@@ -35,11 +35,13 @@ This repository contains the **Part I** implementation of the Sea++ project, foc
 
 ## 📊 UML diagram
 The following UML class diagram illustrates the structure and relationships of the Sea++ system as implemented in Part I.
+
 🧩 **Design Patterns Used**:
 - `<<facade>>` — **App**: Central entry point for user interaction and coordination.
 - `<<mediator>>` — **SeaPlusPlusEngine**: Decouples sea creature validation logic from the App by mediating between checkers.
 - `<<interface>>` — **SeaChecker**: Provides a common interface for all rule-checking classes.
-📐 **Key Relationships**:
+  
+🔁 **Key Relationships**:
 - `SeaCreature` is an abstract base class, with `VertebrateCreature` and `InvertebrateCreature` as its subclasses.
 - `SeaPlusPlusEngine` holds both `VertebrateChecker` and `InvertebrateChecker`, and delegates checking responsibilities.
 - `SeaChecker` is an interface that both checker classes implement.
