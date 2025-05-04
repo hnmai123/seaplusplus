@@ -23,7 +23,7 @@ This repository contains the **Part I** implementation of the Sea++ project, foc
 ├── SeaCreature.cpp / SeaCreature.h  # Abstract base class for all sea creatures
 ├── VertebrateCreature.cpp / .h      # Represents vertebrate species (no eggs)
 ├── InvertebrateCreature.cpp / .h    # Represents invertebrate species (may have eggs)
-├── SeaChecker.h                     # Interface for rule checkers (checkCatch method)
+├── SeaChecker.cpp / .h              # Interface for rule checkers
 ├── InvertebrateChecker.cpp / .h     # Validates invertebrate creatures against rules
 ├── VertebrateChecker.cpp / .h       # Validates vertebrate creatures against rules
 ├── SeaPlusPlusEngine.cpp / .h       # Mediator pattern – coordinates validation logic

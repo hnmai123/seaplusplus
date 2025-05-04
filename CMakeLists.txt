@@ -18,6 +18,7 @@ set(SOURCES
     VertebrateChecker.cpp
     VertebrateCreature.cpp
     InputHelper.cpp
+    SeaChecker.cpp
 )
 
 # Header files

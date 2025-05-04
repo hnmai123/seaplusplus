@@ -13,15 +13,15 @@ bool VertebrateChecker::checkCatch(const SeaCreature* creature) const {
     string specie = creature->getSpecie();
     float length = creature->getSize();
     int quantity = creature->getQuantity();
-    auto it = rules.find(specie);
+    string matchedKey = findMatchingSpecies(rules, specie);
 
     // Check if the species is in the rules
-    if (it == rules.end()) {
+    if (matchedKey.empty()) {
         cout << "\n❌ Species not found in rules: " << specie << endl;
         return false; // Species not found
     }
 
-    const SpeciesRule& rule = it->second;
+    const SpeciesRule& rule = rules.at(matchedKey);
 
     if (length < rule.minSize & rule.minSize > 0) {
         cout << "\n📏 Caught " << specie << " is too small. Minimum size: " << rule.minSize << " cm ❗\n";
