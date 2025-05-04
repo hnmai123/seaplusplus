@@ -48,7 +48,7 @@ The following UML class diagram illustrates the structure and relationships of t
 - `CSVLoader` statically loads rule data into a `map<string, SpeciesRule>` used by both checkers.
 - `App` controls the flow of the program and interacts with `Angler`, `SeaPlusPlusEngine`, and the user.
   
-![Part1_UML drawio](https://github.com/user-attachments/assets/4106fa39-0042-42ff-b820-bfb339dd96b5)
+![Part1_UML drawio](https://github.com/user-attachments/assets/f90df02f-b291-4371-aa74-1b834f634de7)
 
 ## 🚀 How to Build & Run
 Follow these steps to build and run the project manually:
